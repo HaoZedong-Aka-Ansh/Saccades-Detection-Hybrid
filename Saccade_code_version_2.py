@@ -25,7 +25,6 @@ from scipy.signal import savgol_filter
 
 df1 = pd.read_excel('C:/Users/ansha/Downloads/Eye Data_1.xlsx', header=None, sheet_name='EyeX')
 df2 = pd.read_excel('C:/Users/ansha/Downloads/Eye Data_1.xlsx', header=None, sheet_name='EyeY')
-#df = pd.read_excel('C:/Users/Soham Bandyopadhyay/Desktop/simple.xlsx',header=None) #name of the Excel file I was using.
 
 temp_x=df1.iloc[0] #Reads first row of the Excel spreadsheet
 eye_x=temp_x.to_numpy() #Position data along x-axis stored in Numpy array eye_x
